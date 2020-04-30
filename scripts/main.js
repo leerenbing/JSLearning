@@ -5,6 +5,7 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
+    alert('onclick');
     if(mySrc === 'images/me.png') {
       myImage.setAttribute('src', 'images/IMG_20200330_152306.jpg');
     } else {
